@@ -12,3 +12,6 @@ circumference r = 2 * pi * r
 
 head' :: [a] -> a
 head' = head
+
+tupeFuncType :: (a, b) -> a
+tupeFuncType = fst
